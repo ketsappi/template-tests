@@ -1,0 +1,59 @@
+name: Bug report
+description: Something isn’t working as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before reporting: search [existing issues](https://github.com/vrk-kpa/suomifi-ui-components/issues)
+  - type: textarea
+    attributes:
+      label: "Description"
+      description: "A short description of the problem you are reporting."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "suomifi-ui-components version"
+      description: "Please provide the version you are having the issue`"
+      render: markdown
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Browser and version"
+      placeholder: "100.0.4896.60 (Official Build) (x86_64)"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Screenreader"
+      placeholder: "VoiceOver"
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: "Operating system and version"
+      placeholder: "macOS 12.2.1"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Steps to reproduce the issue"
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Expected behavior"
+      description: "A description of the behavior you expected"
+  - type: textarea
+    attributes:
+      label: "Actual behavior and screenshots"
+      description: "Observed behavior. Add screenshot if it does help to show issue"
+    validations:
+      required: true
