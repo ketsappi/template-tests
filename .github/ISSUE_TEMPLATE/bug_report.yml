@@ -6,7 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before reporting: search [existing issues](https://github.com/vrk-kpa/suomifi-ui-components/issues)
+        Before reporting: search [existing issues](https://github.com/vrk-kpa/suomifi-ui-components/issues).
+        You can see the supported screenreader and browser combinations from [here](https://github.com/vrk-kpa/suomifi-ui-components#supported-browser-and-screenreader-combinations)
   - type: textarea
     attributes:
       label: "Description"
@@ -23,7 +24,6 @@ body:
   - type: input
     attributes:
       label: "Browser and version"
-      description: "You can see the supported browsers from [here](https://github.com/vrk-kpa/suomifi-ui-components#supported-browser-and-screenreader-combinations)"
       placeholder: "Chrome 100.0.4896.60 (Official Build) (x86_64)"
     validations:
       required: true
@@ -31,13 +31,11 @@ body:
     attributes:
       label: "Screenreader"
       placeholder: "VoiceOver"
-      description: "You can see the supported screenreaders from [here](https://github.com/vrk-kpa/suomifi-ui-components#supported-browser-and-screenreader-combinations)"
     validations:
       required: false
   - type: input
     attributes:
       label: "Operating system and version"
-      description: "You can see the supported operating systems from [here](https://github.com/vrk-kpa/suomifi-ui-components#supported-browser-and-screenreader-combinations)"
       placeholder: "macOS 12.2.1"
     validations:
       required: true
