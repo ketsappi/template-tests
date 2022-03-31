@@ -1,5 +1,6 @@
 name: Bug report
 description: Something isn’t working as expected
+title: [Bug]
 labels: [bug]
 body:
   - type: markdown
@@ -23,7 +24,7 @@ body:
   - type: input
     attributes:
       label: "Browser and version"
-      placeholder: "100.0.4896.60 (Official Build) (x86_64)"
+      placeholder: "Chrome 100.0.4896.60 (Official Build) (x86_64)"
     validations:
       required: true
   - type: input
