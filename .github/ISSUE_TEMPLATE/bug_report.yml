@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Before reporting: search [existing issues](https://github.com/vrk-kpa/suomifi-ui-components/issues).
-        You can see the supported screenreader and browser combinations from [here](https://github.com/vrk-kpa/suomifi-ui-components#supported-browser-and-screenreader-combinations)
+        You can see the supported screenreader and browser combinations from [here](https://github.com/vrk-kpa/suomifi-ui-components#supported-browser-and-screenreader-combinations).
   - type: textarea
     attributes:
       label: "Description"
@@ -42,10 +42,10 @@ body:
   - type: textarea
     attributes:
       label: "Steps to reproduce the issue"
+      description: "How we can reproduce the issue you are having"
       placeholder: |
         1. ...
         2. ...
-        3. ...
     validations:
       required: true
   - type: textarea
